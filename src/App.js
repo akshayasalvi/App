@@ -21,6 +21,9 @@ if (window && Environment.isDevelopment()) {
 
 
 
+
+
+
 LogBox.ignoreLogs([
     // Basically it means that if the app goes in the background and back to foreground on Android,
     // the timer is lost. Currently Expensify is using a 30 minutes interval to refresh personal details.
